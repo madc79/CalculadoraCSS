@@ -1,0 +1,84 @@
+/*Root: */
+.root{
+    -fx-background-color: black;/*Color de fondo: negro */
+    -fx-font-family: monospace;/*Fuente: monospace */
+    -fx-hgap: 5px;/*Espaciado horizontal (hgap) entre los botones: 5px */
+    -fx-vgap: 5px;/*Espaciado vertical (vgap) entre los botones: 5px */
+    -fx-padding: 5px;/*Relleno (padding): 5 píxeles por todos los lados */
+}
+/*Texto: */
+.text-field{
+    -fx-font-color: lightgray;/*Color del texto: gris claro */
+    -fx-text-fill: lightgray;/*Color del texto: gris claro */
+    -fx-text-alignement: RIGHT;/*Alineado del texto: A la derecha */
+    -fx-font-weight: bold;/*Fuente: en negrita */
+    -fx-font-size: 25pt;/*Fuente: 25 puntos */
+    -fx-padding: 10px;/*Relleno (padding): 10 píxeles por todos los lados */
+    -fx-background-color: transparent;/*Color de fondo: transparente (transparent) */
+    -fx-background-insets: 0px;/*Recuadro (inset) de fondo: 0 píxeles por todos los lados*/
+}
+/*Botones: */
+.button{
+    -fx-font-size: 16pt;/*Fuente: 16 puntos */
+    -fx-background-radius: 5em; /*Radio: 0 píxeles */
+    -fx-background-insets: 0px;/*Recuadro (inset): 0 píxeles */
+}
+/*Botones con foco (:focused): */
+.button:focused{
+    -fx-border-color: white;/*Color de borde: blanco */
+}
+/*Botones armados (:armed) */
+.button:armed{
+    -fx-border-color: yellow;/*Color de borde: amarillo */
+}
+/*Botones numéricos */
+.numeric{
+    -fx-text-fill: white;/*Color de texto: blanco */
+    -fx-background-color: darkgrey;/*Color de fondo: gris oscuro */
+}
+/*Botones numéricos con ratón encima (:hover): */
+.numeric:hover{
+    -fx-text-fill: darkgrey;/*Color de texto: gris oscuro*/
+    -fx-background-color: /*white;Color de fondo: blanco*/
+ }
+ /*Botones numéricos pulsados (:pressed) */
+ .numeric:pressed{
+    -fx-text-fill: lightgrey;/*Color de texto: gris claro */
+    -fx-background-color: black;/*Color de fondo: negro */
+ }
+ /*Botones de reinicio (CE, C):*/
+.reinicio{
+    -fx-text-fill: black;/*Color de texto: negro. */
+    -fx-background-color: lightgray;/*Color de fondo: gris claro. */
+}
+/*Botones de reinicio con ratón encima (:hover) */
+.reinicio:hover{
+    -fx-background-color: white;/*Color de fondo: blanco */
+}
+/*Botones de reinicio pulsados (:pressed) */
+.reinicio:pressed{
+    -fx-text-fill: lightgrey;/*Color de texto: gris claro */
+    -fx-background-color: black;/*Color de fondo: negro */
+}
+/*Botones de operación (+, -, *, /): */
+.operacion{
+    -fx-text-fill: white;/*Color de texto: blanco */
+    -fx-background-color: orange;/*Color de fondo: naranja */
+}
+/*Botones de operación con ratón encima (:hover): */
+.operacion:hover{
+    -fx-background-color: darkorange;/*Color de fondo: naranja oscuro */
+}
+/*Botones de operación por defecto con ratón encima (:hover:default) */
+.operacion::hover:default{
+    -fx-background-color: red;/*Color de fondo: rojo */
+}
+/*Botones de operación pulsados (:pressed) */
+.operacion:pressed{
+    -fx-text-fill: orange;/*Color de texto: naranja */
+    -fx-background-color: white;/*Color de fondo: blanco */
+}
+/*Botones de operación por defecto (:default) - Sólo el botón "=": */
+#igualButton{
+    -fx-background-color: orangered;/*Color de fondo: rojo anaranjado (orangered) */
+}
